@@ -13,4 +13,5 @@ int myNumber(T1 ex)
 int main(){
 
     myNumber("Jose Pedro Fuxi André");
+    myNumber(12);
 }
