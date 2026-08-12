@@ -1,17 +1,19 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 template <typename T1>
 int myNumber(T1 ex)
 {
-    std::vector<T1> My_list;
-    My_list.push_back(ex);
-    std::cout << My_list.front() << std::endl;
+    
+    // std::cout << ex << std::endl;
+   auto i =  std::size<T1>(ex);
+   std::cout << i << std::endl;
     return 0;
 }
 
 int main(){
 
-    myNumber("Jose Pedro Fuxi André");
-    myNumber(12);
+    myNumber<std::string>("Jose Pedro Fuxi André");
+    // myNumber(12);
 }
