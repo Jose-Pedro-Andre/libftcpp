@@ -8,7 +8,7 @@ int myNumber(T1 ex)
     My_list.push_back(ex);
     std::cout << My_list.front() << std::endl;
     return 0;
-}   
+}
 
 int main(){
 
